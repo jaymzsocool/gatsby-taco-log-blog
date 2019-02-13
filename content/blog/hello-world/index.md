@@ -1,21 +1,6 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: First Entry
+date: "2019-02-13"
 ---
 
-This is my first post on my new fake blog! How exciting!
-
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+Hello, this blog starts on Day 3 of the project. We've spent the first two days working on our Technical Design Document. Once we finished, we presented the TDD to Josh and Scott and we were met with great praise and enthusiasm. Our Front End is deployed on Netlify though at this point it's pretty basic and just displays "Hello World". Here on day three, we're working on getting the Back End deployed on Netlify, though I believe we might be changing to a deployment on Heroku. 

@@ -6,10 +6,12 @@ import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
+    
     <StaticQuery
       query={bioQuery}
       render={data => {
         const { author, social } = data.site.siteMetadata
+        console.log(data.avatar.childImageSharp.fixed)
         return (
           <div
             style={{
@@ -30,13 +32,10 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
+            
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              Written by <strong>{author}</strong>, a Full Stack Web student at Lambda.
+                            
             </p>
           </div>
         )
@@ -47,7 +46,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/me.jpg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
