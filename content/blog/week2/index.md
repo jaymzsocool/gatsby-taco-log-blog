@@ -6,14 +6,14 @@ date: "2019-02-22"
 This second week I did not feel as apprehensive about coding. I coded a lot this week. We started of with a plan about who was going to code what and we stuck to it, perhaps a little too well. It sort of isolated everyone and we didn't really keep track of how each other were doing, whether someone was done and could be working on something else, or someone was having trouble and wouldn't be completing their part of the plan. So that is the lesson I took from this week, I'm going to have to be as annoying as possible to keep updated on everyone's situation. Anyway let move on to the things I got accomplished this week. I created many endpoints this week. Here's a list.
 
 * GET for all users
-* GET for user by ID
-* POST user
+* GET for user by ID[PR](https://github.com/Lambda-School-Labs/labs10-taco-log/pull/21)
+* POST user [PR](https://github.com/Lambda-School-Labs/labs10-taco-log/pull/36)
 * modified POST taco
 * PUT taco by id
-* DELETE taco by id
+* DELETE taco by id [PR](https://github.com/Lambda-School-Labs/labs10-taco-log/pull/36)
 * GET all achievements
-* POST user achievement relation
-* POST user stats
+* POST user achievement relation [PR](https://github.com/Lambda-School-Labs/labs10-taco-log/pull/22)
+* POST user stats[PR](https://github.com/Lambda-School-Labs/labs10-taco-log/pull/29)
 * PUT user stats
 
 With that I created a couple new tables. Main those being the user_stats and the user_achievement relation. With those tables and endpoints I created some basic functionality in react so we could see it in action.
